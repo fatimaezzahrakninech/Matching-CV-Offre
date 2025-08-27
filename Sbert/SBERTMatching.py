@@ -12,7 +12,7 @@ class SBERTMatching:
     (CV et offre d’emploi) à l’aide de SBERT (Sentence-BERT).
     """
 
-    def __init__(self, model_path='output/sbert_regression_finetuned'):
+    def __init__(self, model_path='https://drive.google.com/uc?export=download&id=1KPuaQuwp4gEQZv6HwpVm8CHtJm3qr03Z'):
         """
         Initialise le modèle SBERT à partir du chemin fourni.
 
