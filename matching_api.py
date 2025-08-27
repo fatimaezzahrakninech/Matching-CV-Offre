@@ -12,8 +12,8 @@ UPLOAD_FOLDER = "uploads"
 ALLOWED_EXTENSIONS = {"pdf", "docx", "txt"}
 
 # 🔁 Chargement des modèles
-sbert_model_path = "Sbert/output/sbert_regression_finetuned"
-skill2vec_model_path = "Skill2Vec/models/skill2vec_10k_trained.model"
+sbert_model_path = "https://drive.google.com/uc?export=download&id=1KPuaQuwp4gEQZv6HwpVm8CHtJm3qr03Z"
+skill2vec_model_path = "https://drive.google.com/uc?export=download&id=1Orr6HYjK6fAIhSM32iRAv5qpnqLwsvoh"
 sbert_matcher = SBERTMatching(model_path=sbert_model_path)
 skill2vec_matcher = Skill2VecMatching(model_path=skill2vec_model_path)
 
