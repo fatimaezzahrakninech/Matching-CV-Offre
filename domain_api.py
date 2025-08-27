@@ -28,12 +28,12 @@ MODEL_FOLDER = BASE_DIR
 ALLOWED_EXTENSIONS = {"pdf", "docx", "txt"}
 
 # 🔁 Chargement des modèles
-svm_model = load(os.path.join(MODEL_FOLDER, "svm_model.joblib"))
-knn_model = load(os.path.join(MODEL_FOLDER, "knn_model.joblib"))
-rf_model = load(os.path.join(MODEL_FOLDER, "random_forest_model.joblib"))
-dt_model = load(os.path.join(MODEL_FOLDER, "decision_tree_model.joblib"))
-vectorizer = load(os.path.join(MODEL_FOLDER, "tfidf_vectorizer.joblib"))
-class_names = load(os.path.join(MODEL_FOLDER, "class_names.joblib"))
+svm_model = load(os.path.join(MODEL_FOLDER, "https://drive.google.com/uc?export=download&id=11JYM7STbtJ3yJUSI-qfnH0huPUkckuLF"))
+knn_model = load(os.path.join(MODEL_FOLDER, "https://drive.google.com/uc?export=download&id=1RBGlw_7FOVQbYBnrzyJZzekvzdUUbpVE"))
+rf_model = load(os.path.join(MODEL_FOLDER, "https://drive.google.com/uc?export=download&id=11RKWrxTjsOh-S8qKDDZJhqXEJB3k6g6O"))
+dt_model = load(os.path.join(MODEL_FOLDER, "https://drive.google.com/uc?export=download&id=1t-hEyCez5u-3C9PaKIhX_tHFvAbqBf87"))
+vectorizer = load(os.path.join(MODEL_FOLDER, "https://drive.google.com/uc?export=download&id=1AHyGNsnPg-awgl4oszXM1eGJtJ1pcvxa"))
+class_names = load(os.path.join(MODEL_FOLDER, "https://drive.google.com/uc?export=download&id=1JY_EVrCEr0qlmLXNTh8-XOxX1yTtbpdA"))
 
 app = Flask(__name__)
 app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
