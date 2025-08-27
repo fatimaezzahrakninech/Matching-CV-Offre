@@ -7,7 +7,7 @@ import os
 
 class Skill2VecMatching:
     
-    def __init__(self, model_path="Skill2Vec/models/skill2vec_custom.model"):
+    def __init__(self, model_path="https://drive.google.com/uc?export=download&id=1Orr6HYjK6fAIhSM32iRAv5qpnqLwsvoh"):
         """
         Initialise le modèle Word2Vec pré-entrainé.
         """
